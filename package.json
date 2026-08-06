@@ -1,0 +1,14 @@
+{
+  "name": "syannam.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal site",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "serve": "node scripts/build.js && npx --yes serve dist -l 3000"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^17.0.4"
+  }
+}
